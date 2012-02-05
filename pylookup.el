@@ -210,10 +210,10 @@
                 (setq iter (cdr iter)))
 
               (incf index)
-              (insert (format " %03d) %-25s %-30s %10s"
+              (insert (format " %03d) %-25s %-40s %10s"
                   index
                   (pylookup-trim api 25)
-                  (pylookup-trim module 30)
+                  (pylookup-trim module 40)
                   (pylookup-trim type 10))))
 
             (put-text-property
