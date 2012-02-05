@@ -112,8 +112,8 @@
 (defun pylookup-mode-quit-window ()
   "Leave the completions window."
   (interactive)
-
-  (set-window-configuration pylookup-return-window-config))
+  ;; (set-window-configuration pylookup-return-window-config)
+  )
 
 ;;=================================================================
 ;; execute pylookup
